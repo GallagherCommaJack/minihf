@@ -22,3 +22,8 @@ dependencies = [
     "tqdm>=4.67.1",
     "transformers>=4.49.0",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.7",
+]
