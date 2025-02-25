@@ -1,0 +1,24 @@
+[project]
+name = "weave_agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.13",
+    "beautifulsoup4>=4.13.3",
+    "jsonschema>=4.23.0",
+    "libtmux>=0.45.0",
+    "nextcord>=2.6.0",
+    "numpy>=2.2.3",
+    "protobuf>=5.29.3",
+    "pyautogui>=0.9.54",
+    "requests>=2.32.3",
+    "rich>=13.9.4",
+    "selenium>=4.29.0",
+    "sentencepiece>=0.2.0",
+    "tantivy>=0.22.0",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.49.0",
+]
